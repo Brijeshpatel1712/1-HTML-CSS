@@ -1,0 +1,355 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}
+.navbarlogo{
+    width: 100%;
+    background-color:black;
+}
+.navbarlogoincontainer{
+    
+    width: 90%;
+    height: 50px;
+    margin: auto;
+
+}
+.navbarlogoincontainer ul{
+    display: flex;
+    height: 50px;
+    justify-content: right;
+    align-items: center;   
+}
+.navbarlogoincontainer ul li{
+     list-style: none;
+     padding-left: 20px;
+}
+.navbarlogoincontainer ul li a{
+    color: white;
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    width: 100%;
+    background-color:whitesmoke;
+}
+.navbarcontainer{
+    width: 90%;
+    height: 80PX;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    height: 40px;
+    
+}
+.logo img{
+    width: 100%;
+    height: 40px;
+}
+.manu ul{
+    display: flex;
+
+    
+}
+.manu ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+.manu ul li a::after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid black;
+    position: relative;
+    top: 9px;
+    width: 0%;
+    margin: auto;
+    transition: 0.7s;
+}
+.manu ul li a:hover::after{
+    width: 100%;
+}
+.manu ul li a{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.input{
+    width: 23%;
+    height: 40px;
+    background-color:white;
+    border-radius: 30px;
+    position: relative;
+}
+.input i{
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    font-size: 18px;
+}
+.input input{
+    width: 70%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-left: 40px;
+}
+
+::placeholder{
+    /* padding-left: 30px; */
+    font-size: 20px;
+    color: grey;
+    opacity: 50%;
+}
+.banner{
+    width: 100%;
+}
+.bannercontainer{
+    width: 90%;
+    height: 459px;
+    margin: auto;
+    border-radius: 10px;
+}
+.bannercontainer img{
+    width: 100%;
+    height: 459px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    margin: 20px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+h2::before{
+    content:'';
+    border-bottom: 2px solid black;
+    height: 1px;
+    width: 36%;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+
+h2::after{
+    content:'';
+    border-bottom: 2px solid black;
+    height: 1px;
+    width: 36%;
+    position: absolute;
+    right:5%;
+    top: 50%;
+}
+.product{
+    width: 100%;
+
+}
+.productgalley{
+    width: 90%;
+    height: 670px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+.box{
+    width: 24%;
+    height: 325px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.box img{
+    width: 100%;
+    height: 325px;
+    border-radius: 20px;
+}
+    
+.video{
+    width: 100%;
+}
+.videogallery{
+    width: 90%;
+    height: 1160px;
+    /* background-color:whitesmoke; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-content: space-between; */
+}
+.vbox{
+    width: 24.5%;
+    height: 370px;
+}
+.vbox video{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.vbox img{
+    width: 100%;
+    height: auto;
+    margin: 4px 0px;
+    border-radius: 20px;
+}
+.view{
+    width: 100%;
+    margin: 50px 0px;
+    /* background-color: red; */
+}
+.viewbutton{
+    width: 10%;
+    height: 30px;
+    margin: auto;
+    /* background-color: black; */
+}
+.viewbutton button{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;   
+}
+.dutels{
+    width: 100%;
+    height: 500px;
+    background-color: whitesmoke;
+}
+.pat{
+    width: 90%;
+    height: 250px;
+    /* background-color:hotpink; */
+    margin: auto;
+    display: flex;
+     
+}
+.dutels1{
+    width: 25%;
+    /* background-color: aqua; */
+}
+.dutels2{
+    width: 25%;
+    /* background-color: gold; */
+}
+.dutels3{
+    width: 25%;
+    /* background-color: greenyellow; */
+}
+.dutels4{
+    width: 25%;
+
+    /* background-color: aquamarine; */
+}
+
+h3{
+    margin-top: 35px;
+    font-size: 20px;
+}
+pre{
+    font-size: 15px;
+}
+h6{
+    text-align: center;
+    margin: 20px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+h6::before{
+    content:'';
+    border-bottom: 1px solid black;
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+
+}
+h6::after{
+    content:'';
+    border-bottom: 1px solid black;
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    right: 50%
+
+}
+h4{
+    text-align: center;
+    margin: 20px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+.logo1 {
+    width: 100%;
+    height: 90px;
+    /* background-color: red; */
+
+}
+.simbol{
+    width: 2 0%;
+    height: 90px;
+    /* background-color: white;  */
+    margin: auto;
+}
+.simbol ul{
+    display: flex;
+    list-style: none;
+    padding-left: 40%;
+
+}
+
+.simbol ul li {
+    width: 7%;
+    height: 65px;
+    /* background-color: red; */
+    
+}
+.simbol ul li img{
+    width: 100%;
+    height: 55px;
+    padding: 0px 5px;
+} 
+
+
+.end{
+    width: 100%;
+    height: 20px;
+    /* background-color: blue; */
+}
+.website{
+    width: 30%;
+    height: 20px;
+    /* background-color: white; */
+    margin: auto;   
+}
+
+.end2{
+    width: 100%;
+    height: 20px;
+    /* background-color: blue; */
+    margin: 10px;
+}
+.website2{
+    width: 20%;
+    height: 20px;
+    /* background-color: white; */
+    margin: auto;   
+}
+

@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: opx;
+    box-sizing: border-box;
+}
+.head{
+    height:60px;
+    width: 95%;
+    background-color: white;
+    margin: auto;
+}
+.logo{
+    height: 60px;
+    width: 20%;
+    background-color: grey;
+    float: left;
+}
+.home{
+    height: 60px;
+    width: 65%;
+    background-color:  grey;
+    float: right;
+}
+.main{
+    height: 60px;
+    width: 95%;
+    background-color:  grey;
+    margin: 10px 50px;
+}
+.back{
+    height: 650px;
+    width: 95%;
+    background-color: white;
+    margin: 10px 50px;
+    display: flex;
+}
+.pate-1{
+    height: 650px;
+    width: 33%;
+    background-color: white;
+    
+
+}
+.pate-2{
+    height: 650px;
+    width: 32%;
+    background-color:white;
+    margin: 0px 26.5px;
+    
+}
+.pate-3{
+    height: 650px;
+    width: 32%;
+    background-color:white;
+}
+.box-1{
+    height: 200px;
+    background-color: grey;
+}
+.box-2{
+    height: 200px;
+    background-color: grey;
+    margin: 10px 0px;
+}
+.box-3{
+    height: 229px;
+
+    background-color: grey;
+    margin: 10px 0px; 
+} 
+.peta-1{
+    height: 250px;
+    background-color: grey;
+}
+.peta-2{
+    height: 388px;
+    background-color: grey;
+    margin: 10px 0px;
+}
+.demo-1{
+    height: 200px;
+    background-color:  grey;
+}
+.demo-2{
+    height: 438.5px;
+    background-color:  white;
+    margin: 10px 0px;
+    
+
+
+}
+.a-a{
+    height: 20px;
+    width: 20%;
+    background-color: grey;
+    margin: auto ;
+    margin: 0px 150px;
+
+}
+.xyz{
+    height: 30px;
+    background-color:  white;
+    margin: 40px 0px;
+    display: flex;
+    gap: 20%;
+}
+.a-1{
+    height: 30px;
+    width: 20%;
+    background-color:  grey;
+    float: left;
+}
+.a-2{
+    height: 30px;
+    width: 20%;
+    background-color:  grey;
+    
+}
+.a-3{
+    height: 30px;
+    width: 20%;
+    background-color:  grey;
+}
+.star{
+    height:170px;
+    background-color: white;
+}
+.lest-1{
+    height: 150px;
+    width: 45%;
+    background-color: grey;
+    margin: 10px;
+    float: left;
+}
+.lest-2{
+    height: 150px;
+    width: 45%;
+    background-color: grey;
+    margin: auto    ;
+    margin: 10px 8px ;
+    float: right;
+}
+.end{
+    height:80px;
+    width: 95%;
+    background-color:  grey;
+    margin: auto    ;
+}
+
